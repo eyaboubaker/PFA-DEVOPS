@@ -25,10 +25,18 @@ public class Client implements Serializable {
 	private String prenom;
 	
 	private String dateNaissance;
-	private String lieuNaissance;
+	private String LieuNaissance;
 
 	public Client() {
 		super();
+	}
+
+	public String getLieuNaissance() {
+		return LieuNaissance;
+	}
+
+	public void setLieuNaissance(String lieuNaissance) {
+		LieuNaissance = lieuNaissance;
 	}
 
 	public Client(long id, String nom, String prenom) {
@@ -38,13 +46,7 @@ public class Client implements Serializable {
 		this.prenom = prenom;
 	}
 
-	public String getLieuNaissance() {
-		return lieuNaissance;
-	}
-
-	public void setLieuNaissance(String lieuNaissance) {
-		this.lieuNaissance = lieuNaissance;
-	}
+	
 
 	public long getId() {
 		return id;
