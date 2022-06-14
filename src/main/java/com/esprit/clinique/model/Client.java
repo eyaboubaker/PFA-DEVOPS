@@ -27,6 +27,16 @@ public class Client implements Serializable {
 	private String dateNaissance;
 	private String LieuNaissance;
 
+	private String pays;
+	
+	public String getPays() {
+		return pays;
+	}
+
+	public void setPays(String pays) {
+		this.pays = pays;
+	}
+
 	public Client() {
 		super();
 	}
