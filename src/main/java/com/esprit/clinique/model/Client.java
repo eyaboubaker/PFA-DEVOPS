@@ -27,17 +27,8 @@ public class Client implements Serializable {
 	private String dateNaissance;
 	private String LieuNaissance;
 	
-	private String metier;
 	
-
-	public String getMetier() {
-		return metier;
-	}
-
-	public void setMetier(String metier) {
-		this.metier = metier;
-	}
-
+	
 	public String getLieuNaissance() {
 		return LieuNaissance;
 	}
