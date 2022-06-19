@@ -25,17 +25,8 @@ public class Client implements Serializable {
 	private String prenom;
 	
 	private String dateNaissance;
-	private String LieuNaissance;
 	
 	
-	
-	public String getLieuNaissance() {
-		return LieuNaissance;
-	}
-
-	public void setLieuNaissance(String lieuNaissance) {
-		LieuNaissance = lieuNaissance;
-	}
 
 	private String pays;
 	
