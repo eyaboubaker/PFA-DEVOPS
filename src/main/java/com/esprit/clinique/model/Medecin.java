@@ -31,6 +31,8 @@ public class Medecin implements Serializable {
 	
 	private String specialite;
 	
+	private String EmplacementCabinet;
+	
 	
 
 
@@ -76,6 +78,14 @@ public class Medecin implements Serializable {
 
 	public void setSpecialite(String specialite) {
 		this.specialite = specialite;
+	}
+
+	public String getEmplacementCabinet() {
+		return EmplacementCabinet;
+	}
+
+	public void setEmplacementCabinet(String emplacementCabinet) {
+		EmplacementCabinet = emplacementCabinet;
 	}
 	
 
