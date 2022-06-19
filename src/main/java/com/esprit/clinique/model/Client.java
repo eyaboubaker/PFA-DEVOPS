@@ -26,7 +26,7 @@ public class Client implements Serializable {
 	
 	private String dateNaissance;
 	
-	
+	private String lieuNaissance;
 
 	private String pays;
 	
@@ -81,6 +81,14 @@ public class Client implements Serializable {
 
 	public void setDateNaissance(String dateNaissance) {
 		this.dateNaissance = dateNaissance;
+	}
+
+	public String getLieuNaissance() {
+		return lieuNaissance;
+	}
+
+	public void setLieuNaissance(String lieuNaissance) {
+		this.lieuNaissance = lieuNaissance;
 	}
 			
 }
