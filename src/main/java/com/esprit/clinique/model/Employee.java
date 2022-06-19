@@ -28,6 +28,10 @@ public class Employee  implements Serializable{
 	
 	@Column(name = "email_address", nullable = false)
 	private String emailId;
+	
+	
+	@Column(name = "country", nullable = false)
+	private String country;
 
 	public Employee() {
 		super();
@@ -71,6 +75,14 @@ public class Employee  implements Serializable{
 
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
 	}
 	
 	
